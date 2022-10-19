@@ -31,6 +31,6 @@ app.get('/results', (req, res) => {
 });
 
 // server
-app.listen(process.env.PORT || 3500, process.env.IP, function() {
+app.listen(process.env.PORT || 3500, process.env.IP, () => {
     console.log('server started');
 });
